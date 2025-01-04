@@ -1,0 +1,78 @@
+.productCard {
+  width: 15vmax;
+
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  background-color: white;
+  margin: 10px;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  align-items: center;
+  // height: 27vmax;
+  > img {
+    width: 14vmax;
+  }
+  > div {
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+    > span {
+      margin: 0.5vmax;
+      font: 300 0.7vmax "Roboto";
+    }
+  }
+  > p {
+    font-family: "Roboto";
+    font-size: 1.2vmax;
+    margin: 1vmax 0.5vmax;
+    margin-bottom: 0;
+    margin-top: auto;
+  }
+  > span {
+    margin-top: auto;
+    margin: 0.5vmax;
+    color: #3498db;
+    font-weight: 200;
+    font-size: 1vmax;
+  }
+  &:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    transform: translateY(-1vmax);
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  .productCard {
+    width: 50%;
+    border: 1px rgb(216, 216, 216) solid;
+    margin: 0;
+    padding-bottom: 0;
+
+    border-radius: 0;
+    > img {
+      width: 100%;
+    }
+    > p {
+      font-size: 1.7vmax;
+    }
+    > div {
+      margin: 0;
+      display: block;
+    }
+    > span {
+      font-size: 1.5vmax;
+    }
+    > div > span {
+      margin: 0 0.5vmax;
+      font: 300 1vmax "Roboto";
+    }
+    &:hover {
+      box-shadow: 0;
+      transform: translateY(0vmax);
+    }
+  }
+}
