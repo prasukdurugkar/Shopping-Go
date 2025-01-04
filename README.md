@@ -1,6 +1,3 @@
-Certainly! Below is a basic template for a README file for your MERN stack ecommerce website project:
-
----
 
 # Ecommerce Website Project with MERN Stack
 
@@ -44,6 +41,3 @@ This project is an ecommerce website built using the MERN (MongoDB, Express.js, 
 
 
 ---
-
-Feel free to customize and expand upon this template according to the specific details of your project.
-"# Shopping-Go" 
